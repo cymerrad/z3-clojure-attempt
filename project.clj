@@ -8,5 +8,6 @@
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}}
   :source-paths ["src/clojure"]
+  :resource-paths ["lib/com.microsoft.z3.jar"]
   :java-source-paths ["src/java"]
   :javac-option ["-target" "1.8" "-source" "1.8"])
